@@ -1,7 +1,7 @@
 name: daily-menu
 on:
   schedule:
-    - cron: "0 1 * * *"   # 매일 KST 10:00 (UTC 01:00)
+    - cron: "18 0 * * 1-5"   # 매일 KST 09:18 (UTC 00:28), 월~금
   workflow_dispatch:
 
 jobs:
